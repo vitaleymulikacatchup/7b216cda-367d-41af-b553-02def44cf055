@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
 import HeroBillboardCorners from '@/components/sections/hero/HeroBillboardCorners';
@@ -7,7 +7,7 @@ import FeatureCardThree from '@/components/sections/feature/featureCardThree/Fea
 import TestimonialCardTwo from '@/components/sections/testimonial/TestimonialCardTwo';
 import ContactCenterForm from '@/components/sections/contact/ContactCenterForm';
 import FooterBase from '@/components/sections/footer/FooterBase';
-import { BookOpen, Brain, Heart, Paw, Smile, Sparkles } from "lucide-react";
+import { BookOpen, Brain, Heart, PawPrint, Smile, Sparkles } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -81,7 +81,7 @@ export default function LandingPage() {
           title="About Your Dog"
           description="Dogs are more than pets - they are loyal companions that bring joy, love, and endless moments of happiness into our lives"
           tag="Our Mission"
-          tagIcon={Paw}
+          tagIcon={PawPrint}
           bulletPoints={[
             {
               title: "Loyal Companions",
